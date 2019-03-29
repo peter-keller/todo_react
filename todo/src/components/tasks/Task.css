@@ -1,0 +1,37 @@
+ul,
+li {
+  list-style: none;
+}
+
+.task {
+  text-decoration: none;
+  list-style: none;
+  min-height: 100px;
+  word-break: break-all;
+}
+
+.actions {
+  flex-direction: column;
+  float: right;
+}
+
+.actions > ul > li > button {
+  margin-top: 10px;
+}
+
+.taskParent {
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.High {
+  border: 3px solid #dc3545;
+}
+
+.Normal {
+  border: 3px solid orange;
+}
+
+.Low {
+  border: 3px solid #28a745;
+}
